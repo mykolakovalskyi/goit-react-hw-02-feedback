@@ -8,7 +8,6 @@ export default class Statistics extends Component {
     const { good, neutral, bad, total, positivePercentage } = this.props;
     return (
       <div>
-        <h2 className={css.title}>Statistics</h2>
         {total === 0 && (
           <Notification message="There is no feedback"></Notification>
         )}

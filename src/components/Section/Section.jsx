@@ -7,7 +7,7 @@ export default class Section extends Component {
     const { title, children } = this.props;
     return (
       <section className={css.section}>
-        <h1>{title}</h1>
+        {title}
         {children}
       </section>
     );
